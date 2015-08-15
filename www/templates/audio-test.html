@@ -1,0 +1,33 @@
+<ion-view view-title="audioTest">
+  <ion-content>
+    <ion-list>	
+		<script type="text/javascript">
+		$(function()
+		{
+				$( "#square" ).on( "click", function() {
+				  console.log( 'aaa');
+				});
+		});
+		</script>
+		<button class="button button_green" ng-click="playNative()" >native</button>
+
+		<button class="button button_blue" ng-click="playMedia()" >media</button>
+
+		<button class="button button_yellow" ng-click="playWebAudio()" >web</button>
+		
+		<hr>
+
+		<button class="button button_green" ng-click="playNativeLoop()" >native loop</button>
+
+		<button class="button button_yellow" ng-click="playWebAudioLoop()" >web loop</button>
+
+		<hr>
+
+		<button class="button button_green" ng-click="stopNative()" >native stop</button>
+
+		<button class="button button_blue" ng-click="stopMedia()" >media stop</button>
+
+		<button class="button button_yellow" ng-click="stopWeb()" >web stop</button>
+    </ion-list>
+  </ion-content>
+</ion-view>

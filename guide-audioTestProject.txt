@@ -1,0 +1,33 @@
+audioTestProject
+
+1. step is to create new project
+	ionic start audioTestProject tabs
+
+2. run the project
+	cd audioTestProject
+	ionic serve
+
+3. configure project
+	- create template audio-test.html
+	- edit app.config
+	- create controller
+	- install ng-cordova (http://ngcordova.com/docs/install/)
+	- add plugins to cordova (http://ngcordova.com/docs/plugins/)
+	( cordova plugin add https://github.com/SidneyS/cordova-plugin-nativeaudio.git   --- native )
+	( cordova plugin add cordova-plugin-media  --- media)
+	there should be now 2 new plugins in audioTestProject\plugins\
+	1. de.neofonie.cordova.plugin.nativeaudio
+	2. cordova-plugin-media
+
+4. play it
+	- add a sound to a new folder sounds
+	- sound.mp3
+	- code controller
+	- code template
+	- crodova platform add android 
+	- ionic build android
+
+5. run it
+
+
+
